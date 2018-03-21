@@ -1,10 +1,3 @@
-
-# coding: utf-8
-
-# In[14]:
-
-s = 'ezhlqbkm'
-
 order = ''
 longest_order = ''
 for i in range(len(s)):
@@ -20,17 +13,6 @@ for i in range(len(s)):
 print('Longest substring in alphabetical order is: ' + longest_order)
 
 
-# In[ ]:
-
-
-
-
-# In[4]:
-
-
-
-
-# In[ ]:
 
 
 
