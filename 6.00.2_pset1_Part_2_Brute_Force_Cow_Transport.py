@@ -11,7 +11,6 @@ def partitions(set_):
         for b in partitions(parts[1]):
             yield [parts[0]]+b
 
-
 # This is a helper function that will fetch all of the available 
 # partitions for you to use for your brute force algorithm.
 def get_partitions(set_):
@@ -24,6 +23,7 @@ def get_partitions(set_):
 #for item in (get_partitions(['a','b','c','d'])):
 #     print(item)
 
+#######################################################################################
 # The codes below are the answer I made and they worked!!!
 def all_partitions(cows):
     cowsset = {key for key in cows}
