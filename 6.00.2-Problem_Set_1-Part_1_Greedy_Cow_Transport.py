@@ -20,7 +20,8 @@ def getShip(cows, wl): #get the ship for one round
         
 def greedy_cow_transport(cows, wl): #get total trips
     result = []
-    while cows:
-        ship = getShip(cows, wl)
+    cows_copy = cows.copy()
+    while cows_copy:
+        ship = getShip(cows_copy, wl)
         result.append(ship)
     return result
