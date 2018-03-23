@@ -14,6 +14,6 @@ while True:
     elif balance > mid:
         lower = mid
         balance = initial_balance 
-    elif balance < mid:
+    else:
         upper = mid
         balance = initial_balance
